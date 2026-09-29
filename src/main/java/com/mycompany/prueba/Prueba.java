@@ -60,7 +60,7 @@ public class Prueba {
          
          while(opciones!=0){
              System.out.println("elige una opcion");
-         System.out.println("1-insertar\n 2-Actualizar registro\n3-Eliminar regisro\n4-Concultar registro\n0-salir");
+         System.out.println("1-insertar registro\n 2-Actualizar registro\n3-Eliminar regisro\n4-Concultar registro\n0-salir");
          opciones=sc.nextInt();
          sc.nextLine();
          switch (opciones) {
